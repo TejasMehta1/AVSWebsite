@@ -99,26 +99,8 @@ function Presentation() {
             </MKTypography>
 
 
-                <br/>
-              <br/>
-              <br/>
-              <MKTypography variant="h6" color="white" mt={8} mb={1}>
-                  Find us on
-              </MKTypography>
-              <MKBox display="flex" justifyContent="center" alignItems="center">
-                  <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
-                      <i className="fab fa-facebook" />
-                  </MKTypography>
-                  <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
-                      <i className="fab fa-instagram" />
-                  </MKTypography>
-                  <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
-                      <i className="fab fa-twitter" />
-                  </MKTypography>
-                  <MKTypography component="a" variant="body1" color="white" href="#">
-                      <i className="fab fa-google-plus" />
-                  </MKTypography>
-              </MKBox>
+
+              {/*</MKTypography>*/}
           </Grid>
         </Container>
       </MKBox>
