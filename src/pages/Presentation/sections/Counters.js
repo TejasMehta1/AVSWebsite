@@ -30,30 +30,53 @@ function Counters() {
       <Container>
         <Grid container item xs={12} lg={9} sx={{ mx: "auto" }}>
           <Grid item xs={12} md={4}>
-            <DefaultCounterCard
-              count={70}
-              suffix="+"
-              title="Coded Elements"
-              description="sdf buttons, to inputs, navbars, alerts or cards, you are covered"
-            />
-          </Grid>
-          <Grid item xs={12} md={4} display="flex">
-            <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, mx: 0 }} />
-            <DefaultCounterCard
-              count={15}
-              suffix="+"
-              title="Design Blocks"
-              description="Mix the sections, change the colors and unleash your creativity"
-            />
-            <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} />
+            <h1 style={{textAlign: "center"}}>We are</h1>
+            <h5 style={{textAlign: "center"}}>A diverse group of builders, operators, strategists, consultants, researchers with a love of all things startup, tech, and investing.</h5>
+            {/*<DefaultCounterCard*/}
+            {/*  count={"40"}*/}
+            {/*  // suffix="+"*/}
+            {/*  title="builders, operators, strategists, consultants, researchers with a love of all things startup, tech, and investing."*/}
+            {/*  description="sdf buttons, to inputs, navbars, alerts or cards, you are covered"*/}
+            {/*/>*/}
           </Grid>
           <Grid item xs={12} md={4}>
-            <DefaultCounterCard
-              count={4}
-              title="Pages"
-              description="Save 3-4 weeks of work when you use our pre-made pages for your website"
-            />
+            <h1 style={{textAlign: "center"}}>Our mission</h1>
+            <h5 style={{textAlign: "center"}}>Immerse ourselves in the venture ecosystem and building strong foundations to drive everlasting impact.</h5>
+            {/*<DefaultCounterCard*/}
+            {/*  count={"40"}*/}
+            {/*  // suffix="+"*/}
+            {/*  title="builders, operators, strategists, consultants, researchers with a love of all things startup, tech, and investing."*/}
+            {/*  description="sdf buttons, to inputs, navbars, alerts or cards, you are covered"*/}
+            {/*/>*/}
           </Grid>
+
+          <Grid item xs={12} md={4}>
+            <h1 style={{textAlign: "center"}}>Our Work</h1>
+            <h5 style={{textAlign: "center"}}>Join hands with the brightest entrepreneurs of today and foster innovation in cutting-edge startups to solve the world’s hardest problems. </h5>
+            {/*<DefaultCounterCard*/}
+            {/*  count={"40"}*/}
+            {/*  // suffix="+"*/}
+            {/*  title="builders, operators, strategists, consultants, researchers with a love of all things startup, tech, and investing."*/}
+            {/*  description="sdf buttons, to inputs, navbars, alerts or cards, you are covered"*/}
+            {/*/>*/}
+          </Grid>
+          {/*<Grid item xs={12} md={4} display="flex">*/}
+          {/*  <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, mx: 0 }} />*/}
+          {/*  <DefaultCounterCard*/}
+          {/*    count={15}*/}
+          {/*    suffix="+"*/}
+          {/*    title="Design Blocks"*/}
+          {/*    description="Mix the sections, change the colors and unleash your creativity"*/}
+          {/*  />*/}
+          {/*  <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} />*/}
+          {/*</Grid>*/}
+          {/*<Grid item xs={12} md={4}>*/}
+          {/*  <DefaultCounterCard*/}
+          {/*    count={4}*/}
+          {/*    title="Pages"*/}
+          {/*    description="Save 3-4 weeks of work when you use our pre-made pages for your website"*/}
+          {/*  />*/}
+          {/*</Grid>*/}
         </Grid>
       </Container>
     </MKBox>

@@ -28,6 +28,8 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import PinterestIcon from "@mui/icons-material/Pinterest";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
+
+import avsIcon from "../../../assets/AVS-LOGO.png"
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
@@ -36,6 +38,8 @@ function CenteredFooter({ company, links, socials, light }) {
   const { href, name } = company;
 
   const year = new Date().getFullYear();
+
+
 
   const renderLinks = links.map((link) => (
     <MKTypography
@@ -64,9 +68,13 @@ function CenteredFooter({ company, links, socials, light }) {
   ));
 
   return (
-    <MKBox component="footer" py={6}>
+    <MKBox style={{backgroundColor:"black", paddingRight: "0px", paddingLeft: "0px", position: "absolute", left: "0", width: "100%"}} component="footer" py={6}>
       <Grid container justifyContent="center">
+        <Grid sx={{textAlign: "center"}}item xs={10} lg={8}>
+          <img style={{width: "5em"}} src={avsIcon}/>
+        </Grid>
         <Grid item xs={10} lg={8}>
+
           <Stack
             direction="row"
             flexWrap="wrap"

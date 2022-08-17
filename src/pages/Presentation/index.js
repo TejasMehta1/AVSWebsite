@@ -25,7 +25,8 @@ import MKSocialButton from "components/MKSocialButton";
 
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
+import CenteredFooter from "examples/Footers/CenteredFooter";
+import SimpleFooter from "examples/Footers/SimpleFooter";
 import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
 // Presentation page sections
@@ -47,6 +48,14 @@ import footerRoutes from "footer.routes";
 import bgImage from "assets/austin-night.jpeg";
 import logo from "assets/AVS-LOGO.png"
 
+import "all.css"
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import PinterestIcon from "@mui/icons-material/Pinterest";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+
 function Presentation() {
   return (
     <>
@@ -54,56 +63,117 @@ function Presentation() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
+          route: "#",
+          label: "Apply Now",
           color: "info",
         }}
         sticky
       />
-      <MKBox
-        minHeight="75vh"
-        width="100%"
-        sx={{
-          backgroundImage: `url(${bgImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "top",
-          display: "grid",
-          placeItems: "center",
-        }}
-      >
-        <Container>
-          <Grid container item xs={12} lg={7} justifyContent="center" mx="auto">
-            <MKTypography
-              variant="h1"
-              color="white"
-              mt={-6}
-              mb={1}
-              sx={({ breakpoints, typography: { size } }) => ({
-                [breakpoints.down("md")]: {
-                  fontSize: size["3xl"],
-                },
-              })}
-            >
-                <img style={{width: "500px"}} src={logo}/>
+        <MKBox
+            minHeight="75vh"
+            width="100%"
+            sx={{
+                backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
+                    `${linearGradient(
+                        rgba(gradients.dark.main, 0.6),
+                        rgba(gradients.dark.state, 0.6)
+                    )}, url(${bgImage})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                display: "grid",
+                placeItems: "center",
+            }}
+        >
+            <Container>
+                <Grid
+                    container
+                    item
+                    xs={12}
+                    lg={8}
+                    justifyContent="center"
+                    alignItems="center"
+                    flexDirection="column"
+                    sx={{ mx: "auto", textAlign: "center" }}
+                >
+                    <MKTypography
+                        variant="h1"
+                        color="white"
+                        sx={({ breakpoints, typography: { size } }) => ({
+                            [breakpoints.down("md")]: {
+                                fontSize: size["3xl"],
+                            },
+                        })}
+                    >
+                    <img style={{width: "4em"}} src={logo}/>
+                    </MKTypography>
+                    <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
+                        Builders at heart & change-makers of tomorrow
+                    </MKTypography>
+                    {/*<MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>*/}
+                    {/*    create account*/}
+                    {/*</MKButton>*/}
+                    <MKTypography variant="h6" color="white" mt={8} mb={1}>
+                        Find us on
+                    </MKTypography>
+                    <MKBox display="flex" justifyContent="center" alignItems="center">
+                        <MKTypography component="a" variant="body1" color="white" href="https://www.linkedin.com/company/austin-venture-strategy/" mr={3}>
+                            <i className="fab fa-linkedin" />
+                        </MKTypography>
+                        <MKTypography component="a" variant="body1" color="white" href="https://www.instagram.com/ut.avs/" mr={3}>
+                            <i className="fab fa-instagram" />
+                        </MKTypography>
+                        <MKTypography component="a" variant="body1" color="white" href="https://twitter.com" mr={3}>
+                            <i className="fab fa-twitter" />
+                        </MKTypography>
 
-            </MKTypography>
-            <MKTypography
-              variant="body1"
-              color="white"
-              textAlign="center"
-              px={{ xs: 6, lg: 12 }}
-              mt={1}
-            >
-                Builders at heart and change-makers of tomorrow
-                {/*Austin Venture Strategy is composed of a team of UT Austin students from a variety of majors and backgrounds with a passion for helping build the entrepreneurial ecosystem. We’re builders, operators, strategists, consultants, researchers, and much more with a love of all things startup, tech, and investing. We tackle all kinds of projects across the breadth of a startup with the goal of giving students the hands-on operating experience needed to become superb founders, operators, innovators, and investors. We believe that venture drives the future, and we’re here to do just that.*/}
-            </MKTypography>
+                    </MKBox>
+                </Grid>
+            </Container>
+        </MKBox>
+      {/*<MKBox*/}
+      {/*  minHeight="75vh"*/}
+      {/*  width="100%"*/}
+      {/*  sx={{*/}
+      {/*    backgroundImage: `url(${bgImage})`,*/}
+      {/*    backgroundSize: "cover",*/}
+      {/*    backgroundPosition: "top",*/}
+      {/*    display: "grid",*/}
+      {/*    placeItems: "center",*/}
+      {/*  }}*/}
+      {/*>*/}
+        {/*<Container>*/}
+        {/*  <Grid container item xs={12} lg={7} justifyContent="center" mx="auto">*/}
+        {/*    <MKTypography*/}
+        {/*      variant="h1"*/}
+        {/*      color="white"*/}
+        {/*      mt={-6}*/}
+        {/*      mb={1}*/}
+        {/*      sx={({ breakpoints, typography: { size } }) => ({*/}
+        {/*        [breakpoints.down("md")]: {*/}
+        {/*          fontSize: size["3xl"],*/}
+        {/*        },*/}
+        {/*      })}*/}
+        {/*    >*/}
+        {/*        <img style={{width: "500px"}} src={logo}/>*/}
+
+        {/*    </MKTypography>*/}
+        {/*    <MKTypography*/}
+        {/*      variant="body1"*/}
+        {/*      color="white"*/}
+        {/*      textAlign="center"*/}
+        {/*      px={{ xs: 6, lg: 12 }}*/}
+        {/*      mt={1}*/}
+        {/*    >*/}
+        {/*        Builders at heart and change-makers of tomorrow*/}
+        {/*        /!*Austin Venture Strategy is composed of a team of UT Austin students from a variety of majors and backgrounds with a passion for helping build the entrepreneurial ecosystem. We’re builders, operators, strategists, consultants, researchers, and much more with a love of all things startup, tech, and investing. We tackle all kinds of projects across the breadth of a startup with the goal of giving students the hands-on operating experience needed to become superb founders, operators, innovators, and investors. We believe that venture drives the future, and we’re here to do just that.*!/*/}
+        {/*    </MKTypography>*/}
 
 
 
-              {/*</MKTypography>*/}
-          </Grid>
-        </Container>
-      </MKBox>
+        {/*      /!*</MKTypography>*!/*/}
+        {/*  </Grid>*/}
+        {/*</Container>*/}
+      {/*</MKBox>*/}
       <Card
         sx={{
           p: 2,
@@ -222,7 +292,29 @@ function Presentation() {
         </MKBox>
       </Card>
       <MKBox pt={6} px={1} mt={6}>
-        <DefaultFooter content={footerRoutes} />
+        <CenteredFooter company={{href: "austinventurestrategy.com", name: "Austin Venture Strategy"}}
+
+                        links={[
+          // { href: "https://www.creative-tim.com/", name: "Company" },
+          // { href: "https://www.creative-tim.com/presentation", name: "About Us" },
+          // { href: "https://www.creative-tim.com/presentation", name: "Team" },
+          // { href: "https://www.creative-tim.com/templates/react", name: "Products" },
+          // { href: "https://www.creative-tim.com/blog", name: "Blog" },
+          // { href: "https://www.creative-tim.com/license", name: "License" },
+          ]}
+          socials={ [
+          { icon: <LinkedInIcon fontSize="small" />, link: "https://www.facebook.com/CreativeTim/" },
+          {
+              icon: <TwitterIcon fontSize="small" />,
+              link: "https://twitter.com/creativetim",
+          },
+          {
+              icon: <InstagramIcon fontSize="small" />,
+              link: "https://www.instagram.com/creativetimofficial/",
+          }
+          ]}
+          light= {true}
+         />
       </MKBox>
     </>
   );
