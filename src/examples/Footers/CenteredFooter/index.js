@@ -105,6 +105,9 @@ function CenteredFooter({ company, links, socials, light }) {
             </MKTypography>
             .
           </MKTypography>
+          <MKTypography variant="body2" color={light ? "white" : "secondary"}>
+            <u><a style={{color: light ? "white" : "secondary"}} href={"mailto:austinventurestrategy@gmail.com"}>austinventurestrategy@gmail.com</a></u>
+          </MKTypography>
         </Grid>
       </Grid>
     </MKBox>

@@ -50,6 +50,7 @@ import Author from "layouts/pages/landing-pages/author";
 import SignIn from "layouts/pages/authentication/sign-in";
 
 import About from "layouts/pages/landing-pages/about"
+import Team from "layouts/pages/landing-pages/team"
 
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
@@ -276,8 +277,8 @@ const routes = [
   {
     name: "Members",
     icon: <PeopleIcon />,
-    route: "/pages/landing-pages/about-us",
-    component: <About />,
+    route: "/team",
+    component: <Team />,
   },
 ];
 

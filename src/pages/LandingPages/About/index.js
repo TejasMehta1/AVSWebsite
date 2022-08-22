@@ -12,7 +12,7 @@ Coded by www.creative-tim.com
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
-
+import { useState } from "react";
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
@@ -49,10 +49,38 @@ import logo from "assets/AVS-LOGO.png"
 
 import "all.css"
 
+import Icon from "@mui/material/Icon";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
+
+// Material Kit 2 React components
+import MKButton from "components/MKButton";
+import CenteredFooter from "examples/Footers/CenteredFooter";
+
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import PinterestIcon from "@mui/icons-material/Pinterest";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+
 function About() {
+
+
+        const [dropdown, setDropdown] = useState(null);
+        const [dropup, setDropup] = useState(null);
+
+        const openDropdown = ({ currentTarget }) => setDropdown(currentTarget);
+        const closeDropdown = () => setDropdown(null);
+
+        const openDropup = ({ currentTarget }) => setDropup(currentTarget);
+        const closeDropup = () => setDropup(null);
+
+
     return (
         <>
             <DefaultNavbar
+                brand={"Austin Venture Strategy"}
                 routes={routes}
                 action={{
                     type: "external",
@@ -163,7 +191,7 @@ function About() {
             >
 
 
-                <Counters />
+                {/*<Counters />*/}
                 <Container>
                     <Grid
                         container
@@ -183,6 +211,89 @@ function About() {
                         </MKTypography>
 
                         <img style={{width: "30em"}} src={logos}/>
+
+
+
+                    </Grid>
+                </Container>
+
+                <Container>
+                    <Grid
+                        container
+                        item
+                        xs={12}
+                        lg={6}
+                        flexDirection="column"
+                        alignItems="left"
+                        sx={{ textAlign: "left", my: 6, mx: "auto", px: 0.75 }}
+                    >
+
+
+                        <MKTypography variant="h2" fontWeight="bold">
+                            FAQ
+                        </MKTypography>
+                        <br/>
+
+                        {/*<MKButton variant="gradient" color="info" onClick={openDropdown}>*/}
+                        {/*    Dropdown <Icon >expand_more</Icon>*/}
+                        {/*</MKButton>*/}
+                        {/*<Menu anchorEl={dropdown} open={Boolean(dropdown)} onClose={closeDropdown}>*/}
+
+                        {/*    <MenuItem>*/}
+
+                        {/*    </MenuItem>*/}
+                        {/*    /!*<MenuItem onClick={closeDropdown}>Action</MenuItem>*!/*/}
+                        {/*    /!*<MenuItem onClick={closeDropdown}>Another action</MenuItem>*!/*/}
+                        {/*    /!*<MenuItem onClick={closeDropdown}>Something else here</MenuItem>*!/*/}
+                        {/*</Menu>*/}
+
+                        <MKTypography variant="body1" color="text">
+                            <b>What exactly does AVS do?</b>
+                        </MKTypography>
+
+                            <MKTypography variant="body1" color="text">
+                                AVS helps startups tackle specific strategic and product problems each semester by having a team of students work with the startup in a variety of functions from growth marketing and user research to product design and API development. AVS also seeks to help its members pursue opportunities in venture capital, startup tech, and become founders in the future.
+                            </MKTypography>
+
+                        <br/>
+                        <MKTypography variant="body1" color="text">
+                            <b>What is the expected time commitment to AVS?</b>
+                        </MKTypography>
+
+                        <MKTypography variant="body1" color="text">
+                            Our weekly general meetings last for an hour and focus on learning the ins and outs of venture capital and delivering value-add to startups from both an investor and operator perspective. Project team meetings are expected to take another hour each week. Deliverables are expected to be worked on each week during the course of a project, and some time will be spent during the semester working on your own content (investment thesis, market deep dives, etc.). In total, the weekly commitment is expected to range from ~8-10 hours.
+                        </MKTypography>
+
+                        <br/>
+                        <MKTypography variant="body1" color="text">
+                            <b>Who can join AVS</b>
+                        </MKTypography>
+
+                        <MKTypography variant="body1" color="text">
+                            Anyone at UT Austin can apply; we have no restrictions on major, year, or prior experience. We encourage students from all backgrounds to apply; diverse experience create stronger teams!
+
+                        </MKTypography>
+
+
+                        <br/>
+                        <MKTypography variant="body1" color="text">
+                            <b>Can AVS help me become a venture capitalist?</b>
+                        </MKTypography>
+
+                        <MKTypography variant="body1" color="text">
+
+                            We strive to help our members achieve careers in venture capital and as startup operators; we hope you may go on to become founders yourselves! We can help connect you with opportunities, mentors, and recruiting resources as well as help you with interview preparation and the recruiting process, but there is no substitute for experience at a startup; our philosophy is that the best investors have startup experience under their belts. The goal of AVS is to give you this foundational experience working at startups so you can think like an operator.
+                        </MKTypography>
+
+
+                        <br/>
+                        <MKTypography variant="body1" color="text">
+                            <b>How can my startup get help from AVS?</b>
+                        </MKTypography>
+
+                        <MKTypography variant="body1" color="text">
+
+                            Shoot us an <a href={"mailto:austinventurestrategy@gmail.com"}>email</a>    </MKTypography>
 
 
 
@@ -296,7 +407,29 @@ function About() {
                 {/*</MKBox>*/}
             </Card>
             <MKBox pt={6} px={1} mt={6}>
-                <DefaultFooter content={footerRoutes} />
+                <CenteredFooter company={{href: "https://austinventurestrategy.com", name: "Austin Venture Strategy"}}
+
+                                links={[
+                                    // { href: "https://www.creative-tim.com/", name: "Company" },
+                                    // { href: "https://www.creative-tim.com/presentation", name: "About Us" },
+                                    // { href: "https://www.creative-tim.com/presentation", name: "Team" },
+                                    // { href: "https://www.creative-tim.com/templates/react", name: "Products" },
+                                    // { href: "https://www.creative-tim.com/blog", name: "Blog" },
+                                    // { href: "https://www.creative-tim.com/license", name: "License" },
+                                ]}
+                                socials={ [
+                                    { icon: <LinkedInIcon fontSize="small" />, link: "https://www.facebook.com/CreativeTim/" },
+                                    {
+                                        icon: <TwitterIcon fontSize="small" />,
+                                        link: "https://twitter.com/creativetim",
+                                    },
+                                    {
+                                        icon: <InstagramIcon fontSize="small" />,
+                                        link: "https://www.instagram.com/creativetimofficial/",
+                                    }
+                                ]}
+                                light= {true}
+                />>
             </MKBox>
         </>
     );
