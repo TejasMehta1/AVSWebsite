@@ -188,7 +188,7 @@ function Presentation() {
         }}
       >
         <Counters />
-        <img style={{width: "50em", marginLeft: "auto", marginRight: "auto"}} src={groupPic1} />
+        <img style={{width: "70%", marginLeft: "auto", marginRight: "auto"}} src={groupPic1} />
         {/*<Information />*/}
         {/*<DesignBlocks />*/}
         {/*<Pages />*/}
