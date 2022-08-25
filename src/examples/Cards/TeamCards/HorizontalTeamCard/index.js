@@ -24,7 +24,9 @@ import Grid from "@mui/material/Grid";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-function HorizontalTeamCard({ image, name, position, description }) {
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+
+function HorizontalTeamCard({ image, name, position, description, linkedin="" }) {
   return (
     <Card sx={{ mt: 3 }}>
       <Grid container>
@@ -49,6 +51,8 @@ function HorizontalTeamCard({ image, name, position, description }) {
             <MKTypography variant="body2" color="text">
               {description}
             </MKTypography>
+            {linkedin!="" ? <a target={"_blank"} href={linkedin}><LinkedInIcon/></a> : null}
+
           </MKBox>
         </Grid>
       </Grid>

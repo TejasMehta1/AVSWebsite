@@ -53,38 +53,108 @@ function TeamScreen() {
               <HorizontalTeamCard
                 image={team1}
                 name="Tejas Mehta"
-                position={{ color: "info", label: "UI Designer" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                position={{ color: "info", label: "Product" }}
+                linkedin={"https://www.linkedin.com/in/tejasmehta14/"}
+                // description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team1}
-                name="William Pearce"
-                position={{ color: "info", label: "Boss" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                image={"https://media-exp1.licdn.com/dms/image/C5603AQExcOQDjZkRAA/profile-displayphoto-shrink_800_800/0/1643172767667?e=1666828800&v=beta&t=TWFexHYN-6SL5v_yEela72v4SOgKJvTLDV-aLc05MtA"}
+                name="Mihiro Suzuki"
+                position={{ color: "info", label: "Internal" }}
+                linkedin={"https://www.linkedin.com/in/mihirosuzuki/"}
+                // description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team1}
-                name="Ivana Flow"
-                position={{ color: "info", label: "Athlete" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                image={"https://media-exp1.licdn.com/dms/image/C4E03AQGJRSJWOCZo2w/profile-displayphoto-shrink_800_800/0/1641230041159?e=1666828800&v=beta&t=hYoy-l-DgD93A-u9vCDEEDMQHZ5ecpoWlP-WZjsTxRk"}
+                name="Surya Kaza"
+                position={{ color: "info", label: "External" }}
+                linkedin={"https://www.linkedin.com/in/suryakaza/"}
+                // description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team1}
-                name="Marquez Garcia"
-                position={{ color: "info", label: "JS Developer" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                image={"https://media-exp1.licdn.com/dms/image/C5603AQGIPvm3pC6sxQ/profile-displayphoto-shrink_800_800/0/1659384084819?e=1666828800&v=beta&t=8bipUtHgCYsKe9C3UYMpER-emcb_CzNPWJZUdvEeFZg"}
+                name="Tarun Bobbili"
+                position={{ color: "info", label: "Marketing" }}
+                linkedin={"https://www.linkedin.com/in/tarunbobbili/"}
+                // description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+              />
+            </MKBox>
+          </Grid>
+
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={{ xs: 1, lg: 0 }}>
+              <HorizontalTeamCard
+                  image={"https://d1fdloi71mui9q.cloudfront.net/tfyCNVekSpKPZpcGmf4p_0chy36B2v5E28o3X"}
+                  name="Andrew Abraham"
+                  position={{ color: "info", label: "Social" }}
+                  linkedin={"https://www.linkedin.com/in/andrewabraham17/"}
+                  // description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={{ xs: 1, lg: 0 }}>
+              <HorizontalTeamCard
+                  image={"https://ca.slack-edge.com/T01KM7WQ0GJ-U032VTDMU3Y-4373a82e4398-512"}
+                  name="Izcan Ortiz"
+                  position={{ color: "info", label: "Growth" }}
+                  // description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={{ xs: 1, lg: 0 }}>
+              <HorizontalTeamCard
+                  image={"https://media-exp1.licdn.com/dms/image/C5603AQGqFoftcd5btg/profile-displayphoto-shrink_800_800/0/1650937921715?e=1666828800&v=beta&t=UyAo75oVT0FyqRyZaKFr_t3WWv9qDZoNj6PM2RM1JB4"}
+                  name="Jose Herreria"
+                  position={{ color: "info", label: "Growth" }}
+                  linkedin={"https://www.linkedin.com/in/joseherreria/"}
+                  // description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={{ xs: 1, lg: 0 }}>
+              <HorizontalTeamCard
+                  image={"https://media-exp1.licdn.com/dms/image/C4E03AQEprHUI36i2IA/profile-displayphoto-shrink_800_800/0/1635440576356?e=1666828800&v=beta&t=SC69b2Auth6KEByooOTtzIfMsZrBo8AnR6AQJytnQT4"}
+                  name="Adit Pareek"
+                  position={{ color: "info", label: "Product" }}
+                  linkedin={"https://www.linkedin.com/in/aditpareek/"}
+                  // description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={{ xs: 1, lg: 0 }}>
+              <HorizontalTeamCard
+                  image={"https://media-exp1.licdn.com/dms/image/C4E03AQEILIlqrFMwJw/profile-displayphoto-shrink_800_800/0/1660635418595?e=1666828800&v=beta&t=X-2E4v-YN2uxnoZJdTDgg5Uw4gDzm-u13WH5HwfiZ48"}
+                  name="Neal Davar"
+                  position={{ color: "info", label: "Product" }}
+                  linkedin={"https://www.linkedin.com/in/nealdavar/"}
+                  // description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={{ xs: 1, lg: 0 }}>
+              <HorizontalTeamCard
+                  image={"https://media-exp1.licdn.com/dms/image/C5603AQGCTUv7xZDpvA/profile-displayphoto-shrink_800_800/0/1620179779251?e=1666828800&v=beta&t=D_64Ku_RUqgaR0yza9GWdOU0XW36_WIUqeVg6dxt7Ds"}
+                  name="Mehar Poreddy"
+                  position={{ color: "info", label: "Thesis" }}
+                  linkedin={"https://www.linkedin.com/in/meharporeddy/"}
+                  // description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
             </MKBox>
           </Grid>
