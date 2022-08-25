@@ -51,7 +51,7 @@ import SignIn from "layouts/pages/authentication/sign-in";
 
 import About from "layouts/pages/landing-pages/about"
 import Team from "layouts/pages/landing-pages/team"
-
+import SchoolIcon from '@mui/icons-material/School';
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
 import Features from "layouts/sections/page-sections/featuers";
@@ -71,6 +71,7 @@ import Dropdowns from "layouts/sections/elements/dropdowns";
 import ProgressBars from "layouts/sections/elements/progress-bars";
 import Toggles from "layouts/sections/elements/toggles";
 import Typography from "layouts/sections/elements/typography";
+import Alumni from "./pages/LandingPages/Alumni";
 
 const routes = [
   // {
@@ -279,6 +280,12 @@ const routes = [
     icon: <PeopleIcon />,
     route: "/team",
     component: <Team />,
+  },
+  {
+    name: "Alumni",
+    icon: <SchoolIcon />,
+    route: "/alumni",
+    component: <Alumni />,
   },
 ];
 
