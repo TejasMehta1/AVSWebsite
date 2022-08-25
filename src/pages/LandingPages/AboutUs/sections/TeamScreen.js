@@ -107,9 +107,10 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://ca.slack-edge.com/T01KM7WQ0GJ-U032VTDMU3Y-4373a82e4398-512"}
-                  name="Izcan Ortiz"
+                  image={"https://media-exp1.licdn.com/dms/image/C4E03AQF5RjPHT1_qGg/profile-displayphoto-shrink_800_800/0/1642298137500?e=1666828800&v=beta&t=bgMM-dgexEnPcDntz5tUCvgFPXAJ4yxTMjuErysCHrQ"}
+                  name="Izcan O Ortiz"
                   position={{ color: "info", label: "Growth" }}
+                  linkedin={"https://www.linkedin.com/in/izcan-ordaz-9219b5183/"}
                   // description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
             </MKBox>
