@@ -210,7 +210,7 @@ function About() {
                             AVS members strive to creating an equitable and sustainable venture ecosystem. Check out some companies our members have made waves in!
                         </MKTypography>
 
-                        <img style={{width: "30em"}} src={logos}/>
+                        <img style={{width: "100%"}} src={logos}/>
 
 
 
