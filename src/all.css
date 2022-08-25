@@ -1,7 +1,14 @@
-a.MuiTypography-root.MuiTypography-body1.css-8518xj-MuiTypography-root {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+/*a.MuiTypography-root.MuiTypography-body1.css-8518xj-MuiTypography-root {*/
+/*    text-align: center;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    padding-left: 10px;*/
+/*    padding-right: 10px;*/
+/*}*/
+
+.findus{
+    margin-left: auto!important;
+    margin-right: auto!important;
     padding-left: 10px;
     padding-right: 10px;
 }

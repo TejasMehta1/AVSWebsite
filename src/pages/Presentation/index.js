@@ -118,13 +118,13 @@ function Presentation() {
                         Find us on
                     </MKTypography>
                     <MKBox display="flex" justifyContent="center" alignItems="center">
-                        <MKTypography component="a" variant="body1" color="white" href="https://www.linkedin.com/company/austin-venture-strategy/" mr={3}>
+                        <MKTypography component="a" variant="body1" color="white" href="https://www.linkedin.com/company/austin-venture-strategy/" mr={3} className={"findus"}>
                             <i className="fab fa-linkedin" />
                         </MKTypography>
-                        <MKTypography component="a" variant="body1" color="white" href="https://www.instagram.com/ut.avs/" mr={3}>
+                        <MKTypography component="a" variant="body1" color="white" href="https://www.instagram.com/ut.avs/" mr={3} className={"findus"}>
                             <i className="fab fa-instagram" />
                         </MKTypography>
-                        <MKTypography component="a" variant="body1" color="white" href="https://twitter.com" mr={3}>
+                        <MKTypography component="a" variant="body1" color="white" href="https://twitter.com" mr={3} className={"findus"}>
                             <i className="fab fa-twitter" />
                         </MKTypography>
 
