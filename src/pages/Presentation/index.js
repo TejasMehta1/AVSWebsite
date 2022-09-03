@@ -187,6 +187,8 @@ function Presentation() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
+        <br/>
+        <br/>
         <Counters />
         <img style={{width: "70%", marginLeft: "auto", marginRight: "auto"}} src={groupPic1} />
         {/*<Information />*/}
