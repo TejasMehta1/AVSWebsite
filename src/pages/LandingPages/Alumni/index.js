@@ -76,7 +76,7 @@ function Alumni() {
                 routes={routes}
                 action={{
                     type: "external",
-                    route: "#",
+                    route: "https://docs.google.com/forms/d/e/1FAIpQLScNJYKUev5XDJihvW0s-xmHWip1J5MxJcTL28DCBys7xrgHUg/viewform",
                     label: "Apply Now",
                     color: "info",
                 }}
