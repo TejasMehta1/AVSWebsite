@@ -25,7 +25,30 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import team1 from "assets/images/TejasMehta.jpeg";
+import TejasMehta from "assets/images/TejasMehta.jpeg";
+import MihiroSuzuki from "assets/images/MihiroSuzuki.jpeg";
+import SuryaKaza from "assets/images/SuryaKaza.jpeg";
+import TarunBobbili from "assets/images/TarunBobbili.jpeg";
+import AndrewAbraham from "assets/images/AndrewAbraham.jpeg";
+import IzcanOrtiz from "assets/images/IzcanOrtiz.jpeg";
+import JoseHerreria from "assets/images/JoseHerreria.jpeg";
+import AditPareek from "assets/images/AditPareek.jpeg";
+import NealDavar from "assets/images/NealDavar.jpeg";
+import MeharPoreddy from "assets/images/MeharPoreddy.jpeg";
+import AarushiKhandelwal from "assets/images/AarushiKhandelwal.jpeg";
+import AkhilThomas from "assets/images/AkhilThomas.jpeg";
+import BenjaminWang from "assets/images/BenjaminWang.jpeg";
+import FaizaRahman from "assets/images/FaizaRahman.jpeg";
+import JakeDring from "assets/images/JakeDring.jpeg";
+import JaySuresh from "assets/images/JaySuresh.jpeg";
+import KatherineOspina from "assets/images/KatherineOspina.jpeg";
+import KevinChen from "assets/images/KevinChen.jpeg";
+import PatrickInsull from "assets/images/PatrickInsull.jpeg";
+import RayanTejani from "assets/images/RayanTejani.jpeg";
+import RishiVenkat from "assets/images/RishiVenkat.jpeg";
+import RushilChander from "assets/images/RushilChander.jpeg";
+import TrishaAggarwal from "assets/images/TrishaAggarwal.jpeg";
+import VedantTrivedi from "assets/images/VedantTrivedi.jpeg";
 
 
 function TeamScreen() {
@@ -56,7 +79,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                  image={"https://media-exp1.licdn.com/dms/image/C5603AQExcOQDjZkRAA/profile-displayphoto-shrink_800_800/0/1643172767667?e=1666828800&v=beta&t=TWFexHYN-6SL5v_yEela72v4SOgKJvTLDV-aLc05MtA"}
+                  image={MihiroSuzuki}
                   name="Mihiro Suzuki"
                   position={{ color: "info", label: "President" }}
                   linkedin={"https://www.linkedin.com/in/mihirosuzuki/"}
@@ -67,7 +90,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team1}
+                image={TejasMehta}
                 name="Tejas Mehta"
                 position={{ color: "info", label: "Product VP" }}
                 linkedin={"https://www.linkedin.com/in/tejasmehta14/"}
@@ -79,7 +102,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={"https://media-exp1.licdn.com/dms/image/C4E03AQGJRSJWOCZo2w/profile-displayphoto-shrink_800_800/0/1641230041159?e=1666828800&v=beta&t=hYoy-l-DgD93A-u9vCDEEDMQHZ5ecpoWlP-WZjsTxRk"}
+                image={SuryaKaza}
                 name="Surya Kaza"
                 position={{ color: "info", label: "External VP" }}
                 linkedin={"https://www.linkedin.com/in/suryakaza/"}
@@ -90,7 +113,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={"https://media-exp1.licdn.com/dms/image/C5603AQGIPvm3pC6sxQ/profile-displayphoto-shrink_800_800/0/1659384084819?e=1666828800&v=beta&t=8bipUtHgCYsKe9C3UYMpER-emcb_CzNPWJZUdvEeFZg"}
+                image={TarunBobbili}
                 name="Tarun Bobbili"
                 position={{ color: "info", label: "Marketing VP" }}
                 linkedin={"https://www.linkedin.com/in/tarunbobbili/"}
@@ -102,7 +125,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://d1fdloi71mui9q.cloudfront.net/tfyCNVekSpKPZpcGmf4p_0chy36B2v5E28o3X"}
+                  image={AndrewAbraham}
                   name="Andrew Abraham"
                   position={{ color: "info", label: "Social VP" }}
                   linkedin={"https://www.linkedin.com/in/andrewabraham17/"}
@@ -113,7 +136,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://media-exp1.licdn.com/dms/image/C4E03AQF5RjPHT1_qGg/profile-displayphoto-shrink_800_800/0/1642298137500?e=1666828800&v=beta&t=bgMM-dgexEnPcDntz5tUCvgFPXAJ4yxTMjuErysCHrQ"}
+                  image={IzcanOrtiz}
                   name="Izcan O Ortiz"
                   position={{ color: "info", label: "Growth VP" }}
                   linkedin={"https://www.linkedin.com/in/izcan-ordaz-9219b5183/"}
@@ -124,7 +147,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://media-exp1.licdn.com/dms/image/C5603AQGqFoftcd5btg/profile-displayphoto-shrink_800_800/0/1650937921715?e=1666828800&v=beta&t=UyAo75oVT0FyqRyZaKFr_t3WWv9qDZoNj6PM2RM1JB4"}
+                  image={JoseHerreria}
                   name="Jose Herreria"
                   position={{ color: "info", label: "Growth VP" }}
                   linkedin={"https://www.linkedin.com/in/joseherreria/"}
@@ -135,7 +158,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://media-exp1.licdn.com/dms/image/C4E03AQEprHUI36i2IA/profile-displayphoto-shrink_800_800/0/1635440576356?e=1666828800&v=beta&t=SC69b2Auth6KEByooOTtzIfMsZrBo8AnR6AQJytnQT4"}
+                  image={AditPareek}
                   name="Adit Pareek"
                   position={{ color: "info", label: "Product VP" }}
                   linkedin={"https://www.linkedin.com/in/aditpareek/"}
@@ -146,7 +169,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://media-exp1.licdn.com/dms/image/C4E03AQEILIlqrFMwJw/profile-displayphoto-shrink_800_800/0/1660635418595?e=1666828800&v=beta&t=X-2E4v-YN2uxnoZJdTDgg5Uw4gDzm-u13WH5HwfiZ48"}
+                  image={NealDavar}
                   name="Neal Davar"
                   position={{ color: "info", label: "Product VP" }}
                   linkedin={"https://www.linkedin.com/in/nealdavar/"}
@@ -157,7 +180,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://media-exp1.licdn.com/dms/image/C5603AQGCTUv7xZDpvA/profile-displayphoto-shrink_800_800/0/1620179779251?e=1666828800&v=beta&t=D_64Ku_RUqgaR0yza9GWdOU0XW36_WIUqeVg6dxt7Ds"}
+                  image={MeharPoreddy}
                   name="Mehar Poreddy"
                   position={{ color: "info", label: "Thesis VP" }}
                   linkedin={"https://www.linkedin.com/in/meharporeddy/"}
@@ -178,7 +201,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://ca.slack-edge.com/T01KM7WQ0GJ-U032ZL6JY3F-fd799b9d3483-512"}
+                  image={AarushiKhandelwal}
                   name="Aarushi Khandelwal"
                   position={{ color: "info", label: "Growth" }}
                   linkedin={"https://www.linkedin.com/in/khandelwalaarushi/"}
@@ -190,7 +213,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://media-exp1.licdn.com/dms/image/C5603AQEnbSfphqf4QQ/profile-displayphoto-shrink_800_800/0/1656734853162?e=1667433600&v=beta&t=BAWTXbM1SJCmniCUl5pyPCAoTojThm4HnlSz1PRtlrM"}
+                  image={AkhilThomas}
                   name="Akhil Thomas"
                   position={{ color: "info", label: "Growth" }}
                   linkedin={"https://www.linkedin.com/in/akhil-thomas-43b7291a5/"}
@@ -202,7 +225,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://media-exp1.licdn.com/dms/image/C5603AQF-iI_9ep4mZg/profile-displayphoto-shrink_800_800/0/1606871818685?e=1667433600&v=beta&t=Y7hsgUM8ih46yRR-oBwiLStK8Ux4J33hiWYJRedTZ-Q"}
+                  image={BenjaminWang}
                   name="Benjamin Wang"
                   position={{ color: "info", label: "Product" }}
                   linkedin={"https://www.linkedin.com/in/benywang/"}
@@ -214,7 +237,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://media-exp1.licdn.com/dms/image/C4E03AQFbtdt9OScorA/profile-displayphoto-shrink_800_800/0/1637343399776?e=1667433600&v=beta&t=qjj3QSEmVYsMDqeDGHZpXsJv9_dn1mv58cXfJiT8ilw"}
+                  image={FaizaRahman}
                   name="Faiza Rahman"
                   position={{ color: "info", label: "Product" }}
                   linkedin={"https://www.linkedin.com/in/faiza-rahman-a7998a12a/"}
@@ -226,7 +249,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://ca.slack-edge.com/T01KM7WQ0GJ-U033F5ZNTG9-f34ba84046d1-512"}
+                  image={JakeDring}
                   name="Jake Dring"
                   position={{ color: "info", label: "Growth" }}
                   linkedin={"https://www.linkedin.com/in/jake-dring/"}
@@ -237,7 +260,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://media-exp1.licdn.com/dms/image/C5603AQEzkJ22pgY5Dg/profile-displayphoto-shrink_800_800/0/1659541288717?e=1667433600&v=beta&t=b7MXIZF2VIW897s1CVoe4GzJ5CruzAl7KzzAWFRRVy8"}
+                  image={JaySuresh}
                   name="Jay Suresh"
                   position={{ color: "info", label: "Growth" }}
                   linkedin={"https://www.linkedin.com/in/jay-suresh-39750016b/"}
@@ -249,7 +272,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://ca.slack-edge.com/T01KM7WQ0GJ-U0332HPQLD9-g37c27301922-512"}
+                  image={KatherineOspina}
                   name="Katherine Ospina"
                   position={{ color: "info", label: "Growth" }}
                   linkedin={"https://www.linkedin.com/in/katherineospina/"}
@@ -262,7 +285,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://media-exp1.licdn.com/dms/image/C5603AQEYvKYXnxnQ7w/profile-displayphoto-shrink_800_800/0/1652833400897?e=1667433600&v=beta&t=IwWdE0D3ffi7QJWYH4Z0JDZj_goVHjbyLCdf1pEL--c"}
+                  image={KevinChen}
                   name="Kevin Chen"
                   position={{ color: "info", label: "Product" }}
                   linkedin={"https://www.linkedin.com/in/kevin-chen-630a881b9/"}
@@ -274,7 +297,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://media-exp1.licdn.com/dms/image/C5603AQF4AS2ODQA2zw/profile-displayphoto-shrink_800_800/0/1599613846469?e=1667433600&v=beta&t=pDn3mqiSsPe4tmsVFUeeOVTBo0_WzMv-IG65tZ1qY9c"}
+                  image={PatrickInsull}
                   name="Patrick Insull"
                   position={{ color: "info", label: "Product" }}
                   linkedin={"https://www.linkedin.com/in/patrick-insull/"}
@@ -286,7 +309,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://media-exp1.licdn.com/dms/image/C4E03AQHVLUSzZ9VVkw/profile-displayphoto-shrink_800_800/0/1560360963957?e=1667433600&v=beta&t=CuSy2NNRjWRCNEY5uNz7ixOc6-gHmHDFsFQRNojISWg"}
+                  image={RayanTejani}
                   name="Rayan Tejani"
                   position={{ color: "info", label: "Product" }}
                   linkedin={"https://www.linkedin.com/in/rayantejani/"}
@@ -297,7 +320,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://media-exp1.licdn.com/dms/image/C5603AQGED46M8y1Vhw/profile-displayphoto-shrink_800_800/0/1648422775236?e=1667433600&v=beta&t=kn_KKpIxEMbU0JwidCT6nBhfAxQn6x0RctZ6PiuF8AI"}
+                  image={RishiVenkat}
                   name="Rishi Venkat"
                   position={{ color: "info", label: "Product" }}
                   linkedin={"https://www.linkedin.com/in/rishi-venkat/"}
@@ -309,7 +332,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://ca.slack-edge.com/T01KM7WQ0GJ-U01S480N6HJ-5cc8a7bc8062-512"}
+                  image={RushilChander}
                   name="Rushil Chander"
                   position={{ color: "info", label: "Growth" }}
                   linkedin={"https://www.linkedin.com/in/rushilchander/"}
@@ -321,7 +344,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://media-exp1.licdn.com/dms/image/C4E03AQHGh5Sa7MrTZQ/profile-displayphoto-shrink_800_800/0/1634911012228?e=1667433600&v=beta&t=C7sxus648cyk-VMyo1CtnXZE43cU4QosXoKSvmKMCTc"}
+                  image={TrishaAggarwal}
                   name="Trisha Aggarwal"
                   position={{ color: "info", label: "Product" }}
                   linkedin={"https://www.linkedin.com/in/trisha-aggarwal/"}
@@ -333,7 +356,7 @@ function TeamScreen() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                  image={"https://media-exp1.licdn.com/dms/image/C5603AQFe2f4e7Q6u9A/profile-displayphoto-shrink_800_800/0/1626781034503?e=1667433600&v=beta&t=Gez94jl8f9Ap679KPsOVpIBA90MkkTqnb7da2n548qA"}
+                  image={VedantTrivedi}
                   name="Vedant Trivedi"
                   position={{ color: "info", label: "Product" }}
                   linkedin={"https://www.linkedin.com/in/vedant-trivedi-b470aa218/"}

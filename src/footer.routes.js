@@ -23,15 +23,15 @@ export default {
   socials: [
     {
       icon: <LinkedInIcon />,
-      link: "https://www.facebook.com/CreativeTim/",
+      link: "https://www.linkedin.com/company/austin-venture-strategy",
     },
-    {
-      icon: <TwitterIcon />,
-      link: "https://twitter.com/creativetim",
-    },
+    // {
+    //   icon: <TwitterIcon />,
+    //   link: "https://twitter.com/creativetim",
+    // },
     {
       icon: <InstagramIcon />,
-      link: "https://github.com/creativetimofficial",
+      link: "https://www.instagram.com/ut.avs/",
     },
   ],
   menus: [

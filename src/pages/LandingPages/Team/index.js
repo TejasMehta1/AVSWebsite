@@ -409,14 +409,14 @@ function Team() {
                                     // { href: "https://www.creative-tim.com/license", name: "License" },
                                 ]}
                                 socials={ [
-                                    { icon: <LinkedInIcon fontSize="small" />, link: "https://www.facebook.com/CreativeTim/" },
-                                    {
-                                        icon: <TwitterIcon fontSize="small" />,
-                                        link: "https://twitter.com/creativetim",
-                                    },
+                                    { icon: <LinkedInIcon fontSize="small" />, link: "https://www.linkedin.com/company/austin-venture-strategy" },
+                                    // {
+                                    //     icon: <TwitterIcon fontSize="small" />,
+                                    //     link: "https://twitter.com/creativetim",
+                                    // },
                                     {
                                         icon: <InstagramIcon fontSize="small" />,
-                                        link: "https://www.instagram.com/creativetimofficial/",
+                                        link: "https://www.instagram.com/ut.avs/",
                                     }
                                 ]}
                                 light= {true}

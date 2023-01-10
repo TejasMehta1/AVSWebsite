@@ -124,9 +124,9 @@ function Presentation() {
                         <MKTypography component="a" variant="body1" color="white" href="https://www.instagram.com/ut.avs/" mr={3} className={"findus"}>
                             <i className="fab fa-instagram" />
                         </MKTypography>
-                        <MKTypography component="a" variant="body1" color="white" href="https://twitter.com" mr={3} className={"findus"}>
-                            <i className="fab fa-twitter" />
-                        </MKTypography>
+                        {/*<MKTypography component="a" variant="body1" color="white" href="https://twitter.com" mr={3} className={"findus"}>*/}
+                        {/*    <i className="fab fa-twitter" />*/}
+                        {/*</MKTypography>*/}
 
                     </MKBox>
                 </Grid>
@@ -307,17 +307,17 @@ function Presentation() {
           // { href: "https://www.creative-tim.com/blog", name: "Blog" },
           // { href: "https://www.creative-tim.com/license", name: "License" },
           ]}
-          socials={ [
-          { icon: <LinkedInIcon fontSize="small" />, link: "https://www.facebook.com/CreativeTim/" },
-          {
-              icon: <TwitterIcon fontSize="small" />,
-              link: "https://twitter.com/creativetim",
-          },
-          {
-              icon: <InstagramIcon fontSize="small" />,
-              link: "https://www.instagram.com/creativetimofficial/",
-          }
-          ]}
+                        socials={ [
+                            { icon: <LinkedInIcon fontSize="small" />, link: "https://www.linkedin.com/company/austin-venture-strategy" },
+                            // {
+                            //     icon: <TwitterIcon fontSize="small" />,
+                            //     link: "https://twitter.com/creativetim",
+                            // },
+                            {
+                                icon: <InstagramIcon fontSize="small" />,
+                                link: "https://www.instagram.com/ut.avs/",
+                            }
+                        ]}
           light= {true}
          />
       </MKBox>
